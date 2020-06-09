@@ -1,4 +1,7 @@
 /* HeroSearch private styles */
+* {
+  padding-left: 15px;
+}
 .search-result li {
   border-bottom: 1px solid gray;
   border-left: 1px solid gray;
@@ -31,7 +34,9 @@
   width: 200px;
   height: 20px;
 }
-
+/*#search-component {
+  padding-left: 15px;
+}*/
 ul.search-result {
   margin-top: 0;
   padding-left: 0;

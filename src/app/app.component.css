@@ -1,4 +1,7 @@
 /* AppComponent's private CSS styles */
+* {
+  padding-left: 15px;
+}
 h1 {
   font-size: 1.2em;
   margin-bottom: 0;
@@ -16,7 +19,8 @@ nav a {
   background-color: #eee;
   border-radius: 4px;
 }
-nav a:visited, a:link {
+nav a:visited,
+a:link {
   color: #334953;
 }
 nav a:hover {
